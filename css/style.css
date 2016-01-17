@@ -516,7 +516,7 @@ nav a#pull:after {
 }
 .specials-heading h3{
 	font-family: 'caviar_dreamsregular';
-	font-size:1.5em;
+	font-size:2em;
 	color: #82592D;
 	text-transform: uppercase;
 }
@@ -675,9 +675,7 @@ nav a#pull:after {
 }
 /********** Galeria ***************/
 /*  GRID OF FOUR   ============================================================================= */
-#galeria {
-	font-family: 'caviar_dreamsregular';
-}
+
 
 .section {
 	clear: both;
@@ -732,6 +730,14 @@ nav a#pull:after {
 .menu_list li a span.price{
 	float:right;
 }
+
+#galeriaTitulo {
+	font-family: 'caviar_dreamsregular';
+	font-size:2em;
+	color: #82592D;
+	text-transform: uppercase;
+}
+
 /************* Contact ********/
 .contact_desc{
 	padding:50px 0;
