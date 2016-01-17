@@ -49,11 +49,12 @@ body{
 	 z-index:9;
 	 background:url(../images/bg.png);
 	 position: fixed;
+
 }
 
 .menu {
 	
-	width: 225px;
+	/*width: 225px; */
 }
 nav {
 	width: 100%;
@@ -184,61 +185,7 @@ nav a#pull:after {
 	max-width:100%;
 	display:block;
 }
-.price_desc{
-	font-family: 'Open Sans', sans-serif;
-	border:solid 4px #82592D;
-	background:#82592D;
-	border-radius: 0px 0px 5px 5px;
-	-webkit-border-radius: 0px 0px 5px 5px;
-	-moz-border-radius: 0px 0px 5px 5px;
-	-o-border-radius: 0px 0px 5px 5px;
-}
-.price_desc a{
-	display:block;
-	padding:10px;
-	color:#DED2B3;
-	-webkit-transition: all 0.5s ease-in-out;
-	-moz-transition: all 0.5s ease-in-out;
-	-o-transition: all 0.5s ease-in-out;
-	transition: all 0.5s ease-in-out;	
-}
-.price_text{
-  float:left;	
-}
-.price_desc .price{
-	font-family: 'Open Sans', sans-serif;
-	font-size:1.8em;
-	color:#82592D;
-	float: left;
-	background: #FFF;
-	line-height:80px;
-	width:80px;
-	text-align: center;
-	margin: 0 18px 0 0;
-	-webkit-border-radius:2em;
-	-moz-border-radius:2em;
-	border-radius:2em;
-}
-.price_text h4{
-	font-size:1em;
-}
-.price_desc span {
-	display: block;
-	font-size:2.5em;
-	font-family: 'Open Sans', sans-serif;
-	color: #FFF;
-}
-.price_desc a:hover {
-	background:#DBB25F;
-	color:#4E4134;
-}
-.price_desc a:hover span{
-	color:#82592D;
-}
-.price_desc a:hover .price {
-	color: #FFF;
-	background:#82592D;
-}
+
 /*----start---mid-grid-----*/
 .border-stip{
 	padding:2px 0;
@@ -571,108 +518,7 @@ nav a#pull:after {
 	padding: 25px 0 50px 0;
 }
 /****** Services **********/
-.services_desc h2{
-	color:#82592D;
-	font-family: 'caviar_dreamsregular';
-	font-size:2em;
-	text-transform: uppercase;
-	padding-bottom:5px;
-}
-.services_desc p{
-	font-size: 0.85em;
-	padding: 5px 0;
-	color: #82592D;
-	line-height: 1.8em;
-}
-.services_desc p span{
-	color:#DBB25F;
-	font-family: 'Open Sans', sans-serif;
-}
-.cont{
-	display: block;
-	float:left;
-	margin:2% 0 2% 0;
-}
-.lsidebar{
-	display: block;
-	float:left;
-	margin:2% 0 2% 1.6%;
-} 	
-.span_2_of_3 {
-	width:72.1%;
-	padding:1.5%; 
-}
-.sidebar {
-	width: 20.2%;
-	padding:1.5%; 
-}
-.image {
-	clear: both;
-	padding: 0px;
-	margin: 0px;
-	padding:1% 0;
-}
-.group:before,
-.group:after {
-    content:"";
-    display:table;
-}
-.group:after {
-    clear:both;
-}
-.group {
-    zoom:1;
-}
-.grid {
-	display: block;
-	float:left;
-	margin: 0% 0 0% 3.6%;
-}
-.grid:first-child { margin-left: 0; }
 
-.images_3_of_1 {
-	width:35.2%;
-}
-.span_2_of_1{
-	width: 61.1%;
-}
-.images_3_of_1  img {
-	max-width:100%;
-	display:block;
-}
-.span_2_of_3  h3{
-	font-size:1.2em;
-	color:#82592D;
-	font-family: 'caviar_dreamsregular';
-	text-transform: uppercase;
-}
-.span_2_of_1  p  {
-	font-size: 0.85em;
-	padding: 5px 0;
-	color:#82592D;
-	line-height: 1.8em;
-}
-.offers_list h2,.archives h2{
-	color:#82592D;
-	font-family: 'caviar_dreamsregular';
-	font-size:1.8em;
-	text-transform: uppercase;
-	padding-bottom:5px;
-}
-.offers_list li,.archives li{
-	color:#82592D;
-	font-size:0.85em;
-	padding:6px 0 6px 20px;
-	background:url(../images/marker.png) no-repeat 0;
-	cursor:pointer;
-	font-family: 'Open Sans', sans-serif;
-}
-.offers_list li:hover,.archives li:hover{
-	color:#CE8A00;
-}
-.archives{
-	margin-top:30px;
-}
 /********** Galeria ***************/
 /*  GRID OF FOUR   ============================================================================= */
 
@@ -724,12 +570,6 @@ nav a#pull:after {
 .menu_list li a:hover{
 	color:#CE8A00;
 }
-.menu_list li a span.item_name{
-	float:left;
-}
-.menu_list li a span.price{
-	float:right;
-}
 
 #galeriaTitulo {
 	font-family: 'caviar_dreamsregular';
@@ -738,108 +578,11 @@ nav a#pull:after {
 	text-transform: uppercase;
 }
 
-/************* Contact ********/
-.contact_desc{
-	padding:50px 0;
-}
-.contact_desc h2{
-	color:#82592D;
-	margin:5px 0 15px 0;
-	font-size:2em;
-	text-transform:uppercase;
-    font-family: 'caviar_dreamsregular';
-}
-.contact-form{
-	position:relative;
-	padding-bottom:10px;
-}
-.left_form{
-	float:left;
-	width:48%;
-}
-.right_form{
-	float:left;
-	width:48%;
-	margin-left:3.8%;
-}
-.contact-form div{
-	padding:5px 0;
-}
-.contact-form span{
-	display:block;
-	font-size:0.85em;
-	font-family: 'Open Sans', sans-serif;
-	color:#82592D;
-	padding-bottom:5px;
-}
-.contact-form input[type="text"],.contact-form textarea{
-		    padding:10px;
-			display:block;
-			width:95%;
-			background:#fcfcfc;
-			border:1px solid #F5E7D9;
-			outline:none;
-			color:#693700;
-			font-size:1em;
-			font-family:Arial, Helvetica, sans-serif;			
-			-webkit-appearance:none;
-			-webkit-transition: all 0.5s ease-in-out;
-			-moz-transition: all 0.5s ease-in-out;
-			-o-transition: all 0.5s ease-in-out;
-			transition: all 0.5s ease-in-out;
-}
-.contact-form input[type="text"]:focus,.contact-form textarea:focus{
-	border:1px solid #E4CFBA;
-}
-.contact-form textarea{
-		resize:none;
-		height:172px;		
-}
-.myButton{
-    background:#82592D;
-	color:#DBB25F;
-	font-size:1em;
-	padding:10px 20px;
-	border:none;
-	text-decoration: none;
-	outline: 0;
-	-webkit-transition: all 0.5s ease-in-out;
-	-moz-transition: all 0.5s ease-in-out;
-	-o-transition: all 0.5s ease-in-out;
-	transition: all 0.5s ease-in-out;
-    display:inline-block;
-    font-family: 'Open Sans', sans-serif;
-    cursor:pointer;
-    text-transform:uppercase;
-    -webkit-appearance:none;
-    float:right;
-}
-.myButton:hover{
-		background:#DBB25F;
-		color:#FFF;
-}
-.company_address{
-	 float:left;
-	 width:25%;
-}
-.company_address p{
-	color:#82592D;
-	font-family: 'Open Sans', sans-serif;
-	font-size:0.85em;
-	padding:5px 0;
-}
-.company_address p span a{
-	text-decoration:underline;
-	color:#693700;
-}
-.company_address p span a:hover{
-	text-decoration:none;
-}
-.contact_info{
-	float:right;
-	width:70%;
-	margin-left:5%;
-}
+
+
+
+
+
 /*----responsive-design-----*/
 @media only screen and (max-width: 1366px) and (min-width: 1280px) {
 	.wrap{
@@ -855,9 +598,7 @@ nav a#pull:after {
 	.wrap{
 		width:90%;
 	}
-	.price_text h4 {
-		font-size: .8em;
-	}
+	
 	.post_desc{
 		width:75%;
 	}
@@ -956,11 +697,6 @@ nav a#pull:after {
 	.menu_list li a{
 		font-size:0.85em;
 	}
-	.company_address,.contact_info{
-		float:none;
-		width:100%;
-		margin:0;
-	}
 	.contact_desc{
 		padding:10px 0;
 	}
@@ -1037,8 +773,5 @@ nav a#pull:after {
 		margin:25px 0 5px 0;
 		font-size:1.5em;
 	}
-	.contact-form input[type="text"], .contact-form textarea{
-		padding:6px;
-		width:94%;
-	}
+	
 }
