@@ -48,10 +48,11 @@ body{
 	 top:0;
 	 z-index:9;
 	 background:url(../images/bg.png);
+	 position: fixed;
 }
 
 .menu {
-	position: fixed;
+	
 	width: 225px;
 }
 nav {
@@ -672,8 +673,12 @@ nav a#pull:after {
 .archives{
 	margin-top:30px;
 }
-/********** Price List ***************/
+/********** Galeria ***************/
 /*  GRID OF FOUR   ============================================================================= */
+#galeria {
+	font-family: 'caviar_dreamsregular';
+}
+
 .section {
 	clear: both;
 	padding: 0px;
