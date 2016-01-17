@@ -49,6 +49,11 @@ body{
 	 z-index:9;
 	 background:url(../images/bg.png);
 }
+
+.menu {
+	position: fixed;
+	width: 225px;
+}
 nav {
 	width: 100%;
 	position: relative;
@@ -106,6 +111,7 @@ nav a#pull {
 	width:100%;
 	position: relative;
 	border-top:2px ridge #663C01;
+
 }
 nav a#pull:after {
 	background:url(../images/nav-arrows.png) no-repeat 0;
@@ -478,30 +484,8 @@ nav a#pull:after {
 	opacity: 0.9;
 	bottom:25px;
 }
-/*----copy-right-----*/
-.copy-right{
-	text-align:center;
-	padding:15px 0px;
-	background:url(../images/bg.png);
-}
-.copy-right p{
-	font-family: 'Open Sans', sans-serif;
-	color: #FFF;
-	font-size: 0.875em;
-	text-transform: uppercase;
-}
-.copy-right p a{
-	color:#DBB25F;
-	font-family: 'Open Sans', sans-serif;
-	-webkit-transition: all 0.3s ease-out;
-	-moz-transition: all 0.3s ease-out;
-	-ms-transition: all 0.3s ease-out;
-	-o-transition: all 0.3s ease-out;
-	transition: all 0.3s ease-out;
-}
-.copy-right p a:hover{
-	color:#fff;
-}
+
+
 /************** About ************/
 .header_img{
 	position:relative;
@@ -732,7 +716,7 @@ nav a#pull:after {
 	font-size:0.85em;
 	display:block;
 	padding:10px 0;	
-	clear:both; 
+	clear:both;
 }
 .menu_list li a:hover{
 	color:#CE8A00;
@@ -903,6 +887,7 @@ nav a#pull:after {
 	}
 	.menu_list li a{
 		font-size:0.75em;
+
 	}
 	.menu_list{
 		padding:0;
