@@ -304,6 +304,7 @@ nav a#pull:after {
 	float:left;
 	margin: 0% 0 0% 1.6%;
 	background:url(../images/grid-bg.png);
+	height: 200px;
 }
 .grid_1_of_3:first-child { 
 	margin-left: 0; 
